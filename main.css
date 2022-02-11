@@ -59,3 +59,11 @@ img{
     margin-right: 15px;
     margin-left: 15px;
 }
+.container{
+    margin-bottom:30px;
+}
+.block4{
+    max-width: min(100%, 1200px);
+    padding: 0 15px;
+    margin: 0 auto;
+}
