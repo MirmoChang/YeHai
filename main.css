@@ -99,6 +99,35 @@ h2:after {
     top: 15px;
     transition: .3s;
 }
+h3{
+    font-size: 20px;
+}
 p{
     color:#cbcbcb;
+}
+#footer {
+    padding: 40px 0 13px;
+    font-size: 14px;
+    
+}
+ul li{
+    list-style-type:none;
+}
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color:#cbcbcb;
+}
+#footer li{
+    padding-right: 15px;
+    margin-right: 10px;
+    line-height: 25px;
+    color:#cbcbcb;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+.footer_ul{
+    display: inline-flex;
+}
+.footer_p{
+    padding-left: 2rem;
 }
