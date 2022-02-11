@@ -65,5 +65,40 @@ img{
 .block4{
     max-width: min(100%, 1200px);
     padding: 0 15px;
-    margin: 0 auto;
+}
+.section-heading{
+    margin-bottom: 15px;
+    text-align: center;
+}
+h2{
+    padding: 0 20px;
+    font-size: 24px;
+    display: inline-block;
+    position: relative;
+    color: #cbcbcb;
+}
+h2:before {
+    border-top: 1px solid #999;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    left: -80px;
+    top: 15px;
+    transition: .3s;
+}
+h2:after {
+    border-top: 1px solid #999;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    right: -80px;
+    top: 15px;
+    transition: .3s;
+}
+p{
+    color:#cbcbcb;
 }
