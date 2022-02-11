@@ -46,3 +46,16 @@ body {
     font-size: 16.8px;
     font-weight: 400;
 }
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1920px;
+}
+img{
+    max-width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
