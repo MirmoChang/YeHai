@@ -75,10 +75,10 @@ h2{
     font-size: 24px;
     display: inline-block;
     position: relative;
-    color: #999;
+    color: #7c7c7c;
 }
 h2:before {
-    border-top: 1px solid #999;
+    border-top: 1px solid #7c7c7c;
     content: "";
     display: inline-block;
     position: absolute;
@@ -89,7 +89,7 @@ h2:before {
     transition: .3s;
 }
 h2:after {
-    border-top: 1px solid #999;
+    border-top: 1px solid #7c7c7c;
     content: "";
     display: inline-block;
     position: absolute;
@@ -103,7 +103,7 @@ h3{
     font-size: 20px;
 }
 p{
-    color:#999;
+    color:#7c7c7c;
 }
 #footer {
     padding: 40px 0 13px;
@@ -115,13 +115,13 @@ ul li{
 }
 a, a:link, a:visited, a:hover, a:active {
     text-decoration: none;
-    color:#999;
+    color:#7c7c7c;
 }
 #footer li{
     padding-right: 15px;
     margin-right: 10px;
     line-height: 25px;
-    color:#999;
+    color:#7c7c7c;
     border-right-width: 1px;
     border-right-style: solid;
 }
