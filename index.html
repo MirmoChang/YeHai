@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <!-- FontAwswome -->
+    <script src="https://kit.fontawesome.com/f311a3f6db.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +20,7 @@
 </head>
 <body style="display: flex; flex-direction: column;">
 
-    <!-- 主選單 -->
+    <!-- 主選單(電腦) -->
     <nav class="main_nav">
         <div class="container" style="display: flex; margin-bottom: 15px;">
                 <div class="logo">
@@ -31,23 +34,31 @@
                 </div>
         </div>
     </nav>
+
+    <!-- 主選單(手機) -->
+    <nav class="visible-md">
+        <div>
+            <div class="mobile_nav">
+                <div class="mobile_menu"><i class="fa-solid fa-list"></i></div>
+                <div class="mobile_logo"><img src="image/yehai_logo.png" height="50px"></div>
+            </div>
+        </div>
+    </nav>
     <!-- 主選單結束 -->
 
     <!-- 主banner -->
     <div class="container">
-        <div class="row">
-            <img src="image/yehai_mainbanner.jpg">
-        </div>
+        <img src="image/yehai_mainbanner.jpg">
     </div>
     <!-- 主banner結束 -->
 
     <!-- 四格圖片 -->
     <div class="container block4">
         <div class="row">
-            <div class="col"><img src="image/yehai_diningroom02.jpeg"></div>
-            <div class="col"><img src="image/yehai_diningroom03.jpg"></div>
-            <div class="col"><img src="image/yehai_outside01.jpg"></div>
-            <div class="col"><img src="image/yehai_ balcony02.jpg"></div>
+            <div class="col-sm-3 col-6"><img src="image/yehai_diningroom02.jpeg"></div>
+            <div class="col-sm-3 col-6"><img src="image/yehai_diningroom03.jpg"></div>
+            <div class="col-sm-3 col-6"><img src="image/yehai_outside01.jpg"></div>
+            <div class="col-sm-3 col-6"><img src="image/yehai_ balcony02.jpg"></div>
         </div>
     </div>
     <!-- 四格圖片結束 -->
@@ -56,7 +67,7 @@
     <div class="container">
         <div class="section-heading">
             <h2>月夜雙人房</h2>
-            <p style="padding-bottom: 10px;">2樓月夜雙人房，設有空調，並配有電熱水壺，有對外窗，沒有陽台。</p>
+            <p class="content_desc">2樓月夜雙人房，設有空調，並配有電熱水壺，有對外窗，沒有陽台。</p>
             <div class="row">
                 <div class="col"><img src="image/moonight/moonnight01.jpg"></div>
                 <div class="col"><img src="image/moonight/moonnight02.jpeg"></div>
@@ -68,7 +79,7 @@
     <div class="container">
         <div class="section-heading">
             <h2>海悅雙人房</h2>
-            <p style="padding-bottom: 10px;">2樓海悅雙人房，設有空調，並配有電熱水壺，有對外窗，沒有陽台。</p>
+            <p class="content_desc">2樓海悅雙人房，設有空調，並配有電熱水壺，有對外窗，沒有陽台。</p>
             <div class="row">
                 <div class="col"><img src="image/haiyue/haiyue01.jpg"></div>
                 <div class="col"><img src="image/haiyue/haiyue02.jpg"></div>
@@ -80,7 +91,7 @@
     <div class="container">
         <div class="section-heading">
             <h2>星海海景雙人房</h2>
-            <p style="padding-bottom: 10px;">2樓星海海景雙人房，設有空調，並配有電熱水壺，有對外窗，有陽台，可眺望九份山景及海景。</p>
+            <p class="content_desc">2樓星海海景雙人房，設有空調，並配有電熱水壺，有對外窗，有陽台，可眺望九份山景及海景。</p>
             <div class="row">
                 <div class="col"><img src="image/singhai/singhai01.jpg"></div>
                 <div class="col"><img src="image/singhai/singhai02.jpg"></div>
@@ -92,7 +103,7 @@
     <div class="container">
         <div class="section-heading">
             <h2>星空海景雙人房</h2>
-            <p style="padding-bottom: 10px;">2樓星空海景雙人房，設有空調，並配有電熱水壺，有對外窗，有陽台，可眺望九份山景及海景。</p>
+            <p class="content_desc">2樓星空海景雙人房，設有空調，並配有電熱水壺，有對外窗，有陽台，可眺望九份山景及海景。</p>
             <div class="row">
                 <div class="col"><img src="image/singkong/singkong01.jpg"></div>
                 <div class="col"><img src="image/singkong/singkong02.jpg"></div>
@@ -106,7 +117,7 @@
     <Footer id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-8">
+                <div class="col-sm-8 col-12">
                     <h3 class="footer_p">關於我們</h3>
                     <p class="footer_p">夜海民宿位於九份，距離九份老街 300 公尺，可欣賞市景，並提供免費 WiFi 和免費私人停車位。<br>
                         每間客房均設有空調、平面電視和冰箱，私人衛浴附沖洗座。<br>
@@ -121,7 +132,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-4 col-12">
                     <h3>粉絲團</h3>
                     <div id="fb-root"></div>
                     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v13.0&appId=1499179336812908&autoLogAppEvents=1" nonce="moM4fkmG"></script>
