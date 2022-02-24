@@ -144,23 +144,6 @@ a, a:link, a:visited, a:hover, a:active {
 .footer_p{
     padding-left: 2rem;
 }
-@media (max-width: 991px) {
-    body{
-        padding-top: calc(100vh - 49rem); 
-        margin: 0;
-    }
-    .main_nav {
-        display: none;
-    }
-}
-@media (min-width: 992px) {
-    body{
-        padding-top: calc(100vh - 26rem); 
-    }
-    .visible-md {
-        display: none;
-    }
-}
 .mobile_nav{
     display: flex;
     align-items: center;
@@ -181,6 +164,23 @@ a, a:link, a:visited, a:hover, a:active {
 }
 .mobile_logo{
     width: 70%;
+}
+@media (max-width: 991px) {
+    body{
+        padding-top: calc(100vh - 49rem); 
+        margin: 0;
+    }
+    .main_nav {
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    body{
+        padding-top: calc(100vh - 26rem); 
+    }
+    .visible-md {
+        display: none;
+    }
 }
 @media (max-width: 767px){
     .col-6 img {
@@ -221,9 +221,12 @@ a, a:link, a:visited, a:hover, a:active {
     z-index: 101;
     transition:left .6s cubic-bezier(.19,1,.22,1);
     left: -13rem;
-        &--open{
-            left: 0;
-    } 
+}
+#drawer-nav-show {
+    left: 0;
+}
+.drawer-nav-open{
+    left: 0;
 }
 .drawer-nav .dropdown {
     justify-content: center;
