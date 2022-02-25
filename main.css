@@ -176,7 +176,7 @@ a, a:link, a:visited, a:hover, a:active {
 }
 @media (min-width: 992px) {
     body{
-        padding-top: calc(100vh - 26rem); 
+        padding-top: calc(100vh - 54rem); 
     }
     .visible-md {
         display: none;
@@ -241,6 +241,6 @@ a, a:link, a:visited, a:hover, a:active {
     width: 100%;
     z-index: 100;
 }
-.drawer-open .drawer-overlay {
+#draw-overlay {
     display: block;
 }
