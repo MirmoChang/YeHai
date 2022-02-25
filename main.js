@@ -1,4 +1,3 @@
-const body = document.querySelector('body');
 const drawer = document.querySelector('.drawer-nav-open');
 const overLay = document.querySelector('.drawer-overlay');
 
