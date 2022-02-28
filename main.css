@@ -58,6 +58,7 @@ body {
     max-width: 1920px;
   }
 }
+
 img{
     max-width: 100%;
 }
@@ -167,7 +168,7 @@ a, a:link, a:visited, a:hover, a:active {
 }
 @media (max-width: 991px) {
     body{
-        padding-top: calc(100vh - 49rem); 
+        padding-top: 55px; 
         margin: 0;
     }
     .main_nav {
@@ -176,7 +177,7 @@ a, a:link, a:visited, a:hover, a:active {
 }
 @media (min-width: 992px) {
     body{
-        padding-top: calc(100vh - 54rem); 
+        padding-top: 95px; 
     }
     .visible-md {
         display: none;
