@@ -18,6 +18,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     background: #fff;
+    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
 }
 .navFixed {
     display: block;
@@ -86,7 +87,7 @@ h2{
     position: relative;
     color: #7c7c7c;
 }
-h2:before {
+.section-heading h2:before {
     border-top: 1px solid #7c7c7c;
     content: "";
     display: inline-block;
@@ -97,7 +98,7 @@ h2:before {
     top: 15px;
     transition: .3s;
 }
-h2:after {
+.section-heading h2:after {
     border-top: 1px solid #7c7c7c;
     content: "";
     display: inline-block;
@@ -158,6 +159,7 @@ a, a:link, a:visited, a:hover, a:active {
     top: 0;
     width: 100%;
     background: #fff;
+    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
   }
 .mobile_menu{
     font-size: 30px;
@@ -230,7 +232,21 @@ a, a:link, a:visited, a:hover, a:active {
     left: 0;
 }
 .drawer-nav .dropdown {
-    justify-content: center;
+    display: block;
+}
+.drawer-nav .dropdown li{
+    margin: 0;
+}
+.drawer-nav .dropdown li a{
+    border: none;
+    border-bottom: 1px solid #E2E2E2;
+    background: none;
+    padding: 10px;
+    width: 100%;
+}
+#drawer-nav > li:not(.nav-logo) a{
+    background: #6B5F54;
+    color: #ffffff;
 }
 .drawer-overlay {
     background-color: rgba(0,0,0,.2);
@@ -244,4 +260,45 @@ a, a:link, a:visited, a:hover, a:active {
 }
 #draw-overlay {
     display: block;
+}
+.nav-logo {
+    position: relative;
+    border-bottom: 1px solid #E2E2E2;
+}
+.tra-info {
+    margin-top: 15px;
+}
+.tra-info h3{
+    color: #666666;
+}
+.tra-info p{
+    padding: 0 25px;
+    line-height: 30px;
+}
+.tra-section-heading {
+    border-left: 3px solid #624D4A;
+    padding-left: 15px;
+    margin-left: 25px;
+}
+.map-responsive {
+    margin-top: 15px;
+    position: relative;
+    padding-bottom: 35%;
+    height: 0;
+    overflow: hidden;
+}
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+@media (max-width: 767px){
+    .tra-section-heading {
+        margin-left: 0;
+    }
+    .map-responsive {
+        padding-bottom: 60%;
+    }
 }
