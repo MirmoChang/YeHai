@@ -302,3 +302,25 @@ a, a:link, a:visited, a:hover, a:active {
         padding-bottom: 60%;
     }
 }
+/* dorm-rule */
+.awesome-i {
+    margin-right: 16px;
+}
+.dorm-rule {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.rule-space {
+    margin-bottom: 16px
+}
+.rule-title {
+    font-size: 17px;
+    margin-bottom: 8px
+}
+.rule-p {
+    font-size: 14px;
+    line-height: 15px;
+}
+.rule-p li{
+    margin-bottom: 10px
+}
