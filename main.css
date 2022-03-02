@@ -199,6 +199,9 @@ a, a:link, a:visited, a:hover, a:active {
         padding: 0 15px;
         font-size: 18px;
     }
+    h3{
+        font-size: 16px;
+    }
     .content_desc {
         padding: 0px 25px;
         font-size: 14px;
@@ -294,14 +297,6 @@ a, a:link, a:visited, a:hover, a:active {
     width: 100% !important;
     height: 100% !important;
 }
-@media (max-width: 767px){
-    .tra-section-heading {
-        margin-left: 0;
-    }
-    .map-responsive {
-        padding-bottom: 60%;
-    }
-}
 /* dorm-rule */
 .awesome-i {
     margin-right: 16px;
@@ -336,4 +331,15 @@ a, a:link, a:visited, a:hover, a:active {
 }
 .check-info .tra-section-heading {
     margin-bottom: 20px;
+}
+@media (max-width: 767px){
+    .tra-section-heading {
+        margin-left: 0;
+    }
+    .map-responsive {
+        padding-bottom: 60%;
+    }
+    .check-info {
+        margin: 10px 0px;
+    }
 }
