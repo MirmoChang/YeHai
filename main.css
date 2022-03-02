@@ -113,7 +113,7 @@ h3{
     font-size: 20px;
 }
 .content_desc{
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 p{
     color:#7c7c7c;
@@ -331,6 +331,28 @@ a, a:link, a:visited, a:hover, a:active {
 }
 .check-info .tra-section-heading {
     margin-bottom: 20px;
+}
+.att-section-heading {
+    border-left: 3px solid #624D4A;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+.check-info .att-section-heading {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.att-info {
+    margin: 15px 50px;
+}
+.att-info ul{
+    margin-left: 5px;
+}
+.att-info li{
+    list-style-type: circle;
+    line-height: 20px;
+}
+.att-info a{
+    color: #50a5cd;
 }
 @media (max-width: 767px){
     .tra-section-heading {
