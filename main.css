@@ -354,6 +354,9 @@ a, a:link, a:visited, a:hover, a:active {
 .att-info a{
     color: #50a5cd;
 }
+.att-block {
+    margin-bottom: 16px;
+}
 @media (max-width: 767px){
     .tra-section-heading {
         margin-left: 0;
@@ -362,6 +365,12 @@ a, a:link, a:visited, a:hover, a:active {
         padding-bottom: 60%;
     }
     .check-info {
-        margin: 10px 0px;
+        margin: 10px 0;
+    }
+    .att-info {
+        margin: 10px 0;
+    }
+    .att-info ul {
+        margin-left: 18px;
     }
 }
